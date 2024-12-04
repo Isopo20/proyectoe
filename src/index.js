@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
 =========================================================
 * Material Dashboard 2 React - v2.2.0
@@ -31,3 +32,15 @@ root.render(
     </MaterialUIControllerProvider>
   </BrowserRouter>
 );
+=======
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <App />
+);
+
+>>>>>>> 2afde8ff358892109cc11ce1c48312e7a8109fe1
